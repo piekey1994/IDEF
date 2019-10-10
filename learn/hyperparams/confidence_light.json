@@ -1,0 +1,12 @@
+{"rnn":{
+  "sent_maxlen": 15,
+  "batch_size": 64,
+  "epochs": 50,
+  "seed": 233,
+  "num_of_latent_layers": 3,
+  "pred_dropout": 0.5,
+  "trainable_emb": true,
+  "hidden_units": 128,
+  "emb_filename": "/data/liupq/transformer-oie/pretrained_word_embeddings/glove.6B.100d.txt"
+}
+}
